@@ -1,0 +1,9 @@
+top_2 faithfulness_score: 0.4
+top_2 relevancy_score: 0.6
+===============
+top_4 faithfulness_score: 0.5
+top_4 relevancy_score: 0.9
+===============
+top_6 faithfulness_score: 0.4
+top_6 relevancy_score: 0.75
+===============

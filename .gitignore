@@ -1,0 +1,6 @@
+.env
+__pycache__
+littlejs
+.DS_Store
+venv
+hf_token

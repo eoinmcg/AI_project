@@ -1,0 +1,41 @@
+1. [X] Implement streaming responses.
+
+?? Uses dynamic few-shot prompting, where the best examples are selected according to the user query.
+
+2. [] There’s code for RAG evaluation in the folder, and the README contains the evaluation results. 
+The folder must also contain the evaluation dataset and the evaluation scripts.
+https://academy.towardsai.net/courses/take/beginner-to-advanced-llm-dev/multimedia/59791119-evaluating-your-rag-pipeline
+
+3. [X] The app is designed for a specific goal/domain that is not a tutor about AI. For example, it could be about finance, healthcare, etc.
+
+Use live search results. In this case, the user must also input the API keys for the relevant APIs (e.g., Perplexity, Bing search, etc.).
+
+4. [X] You have shown evidence of collecting at least two data sources beyond those provided in our course. 
+
+Your data collection and curation process leverages structured JSON outputs, which are used for advanced RAG functionalities in your app.
+
+Your data collection and curation process leverages images and/or PDFs. The parsed data should be useful for some use cases in your app.
+
+The app can generate images on the fly. They must be pertinent to the scope of your app.
+
+Use a reranker in your RAG pipeline. It can be a fine-tuned version (your choice).
+
+Use hybrid search in your RAG pipeline.
+
+5. [ ] Use metadata filtering.
+
+Use a fine-tuned LLM in your app.
+
+Use a fine-tuned embedding model in your app. 
+
+Your RAG pipeline includes query routing.
+https://academy.towardsai.net/courses/take/beginner-to-advanced-llm-dev/multimedia/59791736-adding-question-validation-and-routing
+
+Your query pipeline includes function calling.
+
+Your app manages speech inputs.
+
+Your app manages speech outputs.
+
+Your app appropriately leverages context caching (also known as prompt caching). Explain in the README how you designed your prompts to be adequate for context caching.
+https://academy.towardsai.net/courses/take/beginner-to-advanced-llm-dev/multimedia/59791739-long-context-llms-context-caching-vs-rag
