@@ -2,12 +2,15 @@
 title: AI Project
 emoji: 👾
 colorFrom: blue
-colorTo: indigo
+colorFrom: yellow
+colorTo: pink
 sdk: gradio
-sdk_version: "4.44.1"
+sdk_version: 5.22.0
 app_file: app.py
 pinned: false
+short_description: Chat bot with RAG for LittleJS game engine
 ---
+
 
 # TowardsAI Course final project
 
